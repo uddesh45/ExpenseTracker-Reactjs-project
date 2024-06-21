@@ -1,0 +1,104 @@
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: hsl(221.18deg 46.79% 21.37%);
+    color: white;
+    height: 70px;
+    font-family: emoji;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.expensecontainer {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-color: hsl(207.69deg 41.94% 93.92%);
+}
+
+.expencetrackerform {
+    background-color: hsl(0, 0%, 90%);
+    border: 2px solid hsl(221.38deg 36.4% 46.86%);
+    height: 40%;
+    width: 90%;
+    margin: auto;
+
+}
+
+.mainheading {
+    background-color: hsl(221.18deg 46.79% 21.37%);
+    color: white;
+    margin: 0;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.subheading {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.maindiv {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fromfiled {
+    width: 80%;
+    margin: auto;
+}
+
+.mainbtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 175px;
+}
+
+.expensetrackerbtn1 {
+    padding: 10px 40px;
+    border-radius: 4px;
+    background-color: hsl(144deg 57.6% 57.45%);
+    color: white;
+    border: none;
+    margin-right: 22px;
+
+}
+
+.expensetrackerbtn2 {
+    padding: 10px 40px;
+    border-radius: 4px;
+    background-color: hsl(194.65deg 58.9% 28.63%);
+    color: white;
+    border: none;
+}
+
+.allmaintab {
+    background-color: hsl(207.69deg 41.94% 93.92%) !important;
+}
+
+.maintab {
+    background-color: hsl(0, 0%, 90%);
+    border: 2px solid hsl(221.38deg 36.4% 46.86%);
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.table > thead > tr >th {
+    background-color: hsl(221.18deg 46.79% 21.37%) !important;
+    color: white !important;
+   
+}
+.text-center{
+    font-weight: bold;
+}
